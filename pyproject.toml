@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartops"
+version = "0.1.0"
+description = "LM-native python runtime"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=2.21.0",
+]
+
